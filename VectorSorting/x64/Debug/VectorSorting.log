@@ -1,0 +1,6 @@
+﻿  VectorSorting.cpp
+C:\Users\William\source\repos\VectorSorting\VectorSorting.cpp(93,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\William\source\repos\VectorSorting\VectorSorting.cpp(214,23): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\William\source\repos\VectorSorting\VectorSorting.cpp(212,18): warning C4101: 'min': unreferenced local variable
+C:\Users\William\source\repos\VectorSorting\VectorSorting.cpp(323,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  VectorSorting.vcxproj -> C:\Users\William\source\repos\VectorSorting\x64\Debug\VectorSorting.exe
