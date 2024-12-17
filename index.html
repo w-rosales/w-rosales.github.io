@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>Welcome to My Portfolio</h1>
         <nav>
@@ -22,81 +23,89 @@
             </ul>
         </nav>
     </header>
+    
+    <!-- Hero Section -->
     <section class="hero">
         <h2>Hello! I'm William Rosales</h2>
         <p>A driven developer with a passion for creating innovative solutions.</p>
     </section>
+    
+    <!-- Main Content -->
     <main>
+        <!-- Introduction Section -->
         <section class="centered">
             <h2>Introduction</h2>
-            <div class="textbox">
+            <div class="textbox intro-textbox">
                 <img src="profile.jpg" alt="Profile Picture" style="width:150px;height:150px;border-radius:50%;">
                 <p>Welcome to my portfolio, where I showcase my skills, projects, and achievements. Whether you're here to explore my work, learn more about me, or get in touch, I hope you find what you're looking for.</p>
             </div>
         </section>
+        
+        <!-- Skills and Featured Projects Section -->
         <section class="centered">
-            <h2>Skills</h2>
-            <div class="textbox">
-                <h3>Coding Languages</h3>
-                <ul>
-                    <li><i class="fas fa-code"></i> Python</li>
-                    <li><i class="fas fa-code"></i> JavaScript</li>
-                    <li><i class="fas fa-code"></i> Java</li>
-                    <li><i class="fas fa-code"></i> C/C++</li>
-                    <!-- Add more languages as needed -->
-                </ul>
-            </div>
-            <div class="textbox">
-                <h3>Databases</h3>
-                <ul>
-                    <li><i class="fas fa-database"></i> MySQL</li>
-                    <li><i class="fas fa-database"></i> MongoDB</li>
-                    <!-- Add more databases as needed -->
-                </ul>
-            </div>
-            <div class="textbox">
-                <h3>Libraries</h3>
-                <ul>
-                    <li><i class="fas fa-book"></i> React</li>
-                    <li><i class="fas fa-book"></i> Pandas</li>
-                    <li><i class="fas fa-book"></i> TensorFlow</li>
-                    <!-- Add more libraries as needed -->
-                </ul>
-            </div>
-            <div class="textbox">
-                <h3>Frameworks</h3>
-                <ul>
-                    <li><i class="fas fa-cubes"></i> Angular</li>
-                    <li><i class="fas fa-cubes"></i> Spring Boot</li>
-                    <!-- Add more frameworks as needed -->
-                </ul>
-            </div>
-            <div class="textbox">
-                <h3>Tools and Technologies</h3>
-                <ul>
-                    <li><i class="fas fa-tools"></i> Git</li>
-                    <li><i class="fas fa-tools"></i> VSCode</li>
-                    <li><i class="fas fa-tools"></i> Code Composer Studio</li>
-                    <!-- Add more tools and technologies as needed -->
-                </ul>
-            </div>
-        </section>
-        <section class="centered">
-            <h2>Featured Projects</h2>
-            <div class="textbox">
-                <ul>
-                    <li>
-                        <a href="https://github.com/w-rosales/VectorSorting">VectorSorting</a>
-                        <p>A project focused on implementing and optimizing various vector sorting algorithms. This project showcases my skills in algorithm design and performance optimization.</p>
-                    </li>
-                    <li>
-                        <a href="https://github.com/w-rosales/DogBarkML">Dog Bark ML</a>
-                        <p>An innovative machine learning project that analyzes and classifies dog barks. This project highlights my expertise in machine learning and data analysis.</p>
-                    </li>
-                </ul>
+            <div class="flex-container">
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h2 class="section-label">Skills</h2>
+                    <div class="textbox">
+                        <h3>Coding Languages</h3>
+                        <ul>
+                            <li><i class="fas fa-code"></i> Python</li>
+                            <li><i class="fas fa-code"></i> JavaScript</li>
+                            <li><i class="fas fa-code"></i> Java</li>
+                            <li><i class="fas fa-code"></i> C/C++</li>
+                            <!-- Add more languages as needed -->
+                        </ul>
+                        <h3>Databases</h3>
+                        <ul>
+                            <li><i class="fas fa-database"></i> MySQL</li>
+                            <li><i class="fas fa-database"></i> MongoDB</li>
+                            <!-- Add more databases as needed -->
+                        </ul>
+                        <h3>Libraries</h3>
+                        <ul>
+                            <li><i class="fas fa-book"></i> React</li>
+                            <li><i class="fas fa-book"></i> Pandas</li>
+                            <li><i class="fas fa-book"></i> TensorFlow</li>
+                            <!-- Add more libraries as needed -->
+                        </ul>
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li><i class="fas fa-cubes"></i> Angular</li>
+                            <li><i class="fas fa-cubes"></i> Spring Boot</li>
+                            <!-- Add more frameworks as needed -->
+                        </ul>
+                        <h3>Tools and Technologies</h3>
+                        <ul>
+                            <li><i class="fas fa-tools"></i> Git</li>
+                            <li><i class="fas fa-tools"></i> VSCode</li>
+                            <li><i class="fas fa-tools"></i> Code Composer Studio</li>
+                            <!-- Add more tools and technologies as needed -->
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Featured Projects Section -->
+                <div class="projects-section">
+                    <h2 class="section-label">Featured Projects</h2>
+                    <div class="textbox">
+                        <ul>
+                            <li>
+                                <a href="https://github.com/w-rosales/VectorSorting"><strong>VectorSorting</strong></a>
+                                <p>A project focused on implementing and optimizing various vector sorting algorithms. This project showcases my skills in algorithm design and performance optimization.</p>
+                            </li>
+                            <li>
+                                <a href="https://github.com/w-rosales/DogBarkML"><strong>Dog Bark ML</strong></a>
+                                <p>An innovative machine learning project that analyzes and classifies dog barks. This project highlights my expertise in machine learning and data analysis.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 William Rosales. All rights reserved.</p>
     </footer>
